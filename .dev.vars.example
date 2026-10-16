@@ -4,14 +4,14 @@
 
 # --- 必填 ---
 BETTER_AUTH_SECRET=your-secret-key-run-openssl-rand-hex-32
-BETTER_AUTH_URL=http://localhost:3000
-GITHUB_CLIENT_ID=your-github-client-id
-GITHUB_CLIENT_SECRET=your-github-client-secret
-DOMAIN=blog.example.com
+BETTER_AUTH_URL=https://wsyblog.cn
+GITHUB_CLIENT_ID=Ov23liDLE41T41lKfwFL
+GITHUB_CLIENT_SECRET=961c8f451ede386a693e25e3cef10218abf73163
+DOMAIN=wsyblog.cn
 
 # 仅本地开发使用。设为 dev 时不会真正发信，验证链接打在控制台。
 # 生产环境不要设置，或设为 prod。
-ENVIRONMENT=dev
+ENVIRONMENT=prod
 
 # --- 可选：Umami ---
 # 客户端埋点还需要构建时变量 VITE_UMAMI_WEBSITE_ID，website id 两边填同一个。
